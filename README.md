@@ -1,1 +1,0 @@
-# shadmanis.github.io
