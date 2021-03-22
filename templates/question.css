@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Regular.ttf');
+}
+
+body {
+    font: 14px "Montserrat", Open Sans;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+h1,h2,h4,h5,h6,p,input {
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    width: 100vw;
+    background-color: #fdff9b;
+    color: #212121;
+}
+
+.header h2 {
+	margin: 10px auto;
+}
+
+.button {
+    float: left;
+    cursor: pointer;
+    display: block;
+    width: 130px;
+    border: 1px solid #313131;
+    border-radius: 2px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #313131;
+    text-decoration: none;
+    margin: 8px;
+    box-shadow: 6px 10px 20px #353535
+}
+
+.buttons {
+    padding-bottom: 10px;
+}
+
+.buttons2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.buttons3 {
+    text-align: center;
+}
+
+.button1 {
+    cursor: pointer;
+    display: inline-block;
+    width: 110px;
+    border: 1px solid #313131;
+    border-radius: 2px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #313131;
+    text-decoration: none;
+    box-shadow: 6px 10px 20px #353535;
+}
+
+.first-half {
+    text-align: center;
+    /*width: 100vw;*/
+    height: 50vh;
+    background-color: #009deb;
+    color: white;
+    position: fixed;
+    padding: 0 20px;
+    margin: 44px auto 0;
+    box-shadow: 0 4px 4px gray;
+}
+
+.first-half h3,h2 {
+	margin: 5px auto;
+}
+
+.preview {
+    display: inline-block;
+}
+
+video {
+    margin-top: 2px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    background: lightgray;
+}
+
+.second-half {
+    padding-top: 56vh;
+    /*width: 100vw;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.second-half p {
+    font-size: 20px;
+}
+
+.options {
+    margin-bottom: 30px;
+}
+
+.options p{
+    text-align: left;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.second-half .button1 {
+    position: relative;
+    left: calc(50% - 125px);
+    margin: 40px;
+    width: 150px;
+    padding: 3px;
+}
+
+.ques {
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.ques label {
+    font-size: 17px;
+}
+
+.ques input {
+    margin: 10px 0 10px 18px;
+}
+
+.bottom {
+  clear: both;
+  padding-top: 10px;
+}
+
+/*input[type=text] {*/
+    width: 15px;
+    height: 15px;
+}

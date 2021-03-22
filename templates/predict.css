@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Regular.ttf');
+}
+
+body {
+    font: 14px "Montserrat", Open Sans;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #009deb;
+}
+
+.header {
+    text-align: center;
+    background-color: #fdff9b;
+    color: #212121;
+}
+.header h2 {
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.content {
+    padding: 0 20px;
+    background-color: white;
+    max-width: 500px;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    border-radius: 6px;
+    font-size: 1.3em;
+}
+
+.content a {
+    text-decoration: none;
+}

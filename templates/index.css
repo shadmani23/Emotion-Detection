@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Regular.ttf');
+}
+
+body {
+    font: 14px "Montserrat", Open Sans;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #009deb;
+    text-align: center;
+}
+
+h4 {
+    margin: 10px;
+}
+
+.header {
+    text-align: center;
+    background-color: #fdff9b;
+    color: #212121;
+}
+
+.header h2 {
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.main {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0 20px;
+    font-size: 1.2em;
+    max-width: 1080px;
+    color: white;
+}
+
+.grid {
+    margin: 40px 70px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    /*padding: 30px;*/
+}
+
+.box {
+    width: 26%;
+    display: inline-block;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.submit {
+    text-align: center;
+    /*padding-top: 50px;*/
+    font-size: 1.2em;
+}
+
+.submit label {
+    font-weight: bold;
+}
+
+.name {
+    padding-right: 250px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 6px 7px 15px #353535;
+}
+
+.submit-button {
+    display: block;
+    margin: 30px auto 0;
+    width: 150px;
+    border: 1px solid #313131;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #313131;
+    color: white;
+    text-decoration: none;
+    box-shadow: 6px 10px 20px #353535;
+    letter-spacing: 0.1em;
+}
